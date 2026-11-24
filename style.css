@@ -1,0 +1,76 @@
+
+body {
+    background-color: #171916;
+}
+
+
+.button {
+    background-color:#C5A44A;
+    color: #171916;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin: 70px auto 0;
+    
+}
+
+
+.banner {    
+    width: 100%;
+    height: 450px;
+
+    background-image:
+        linear-gradient(to bottom, transparent, #171916),
+        url("Banner.jpg");
+
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.banner h1 {
+    color: #C5A44A;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.banner p {
+    color: #C5A44A;
+    font-size: 20px;
+    -webkit-text-stroke: 0.5px #77734D;
+    margin-top: 10px;
+}
+
+
+
+.subtitle {
+    font-size: 18px;
+    color: #C5A44A;
+}
+
+.description {
+    font-size: 14px;
+    color: #B8B2A0;
+    font-family: 'Cinzel Decorative', serif;
+    width: 400px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.title {
+    font-size: 20px;
+    color:#C5A44A;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+
